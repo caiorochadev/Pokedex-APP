@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-color: #333333;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    /* background-color: #241d59a6; */
+    background-image: url(../img/eletric.jpg);
+    background-size: cover;
+}
+.content h1{
+    text-align: center;
+    color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
